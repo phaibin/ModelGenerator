@@ -1,0 +1,21 @@
+$SynthesizeString$
+- (id)init
+{
+    if ((self = [super init])) {
+    }
+    return self;
+}
+
+$InitNameString$
+{
+    if ((self = [super init])) {
+$InitContentString$
+    }
+    return self;
+}
+
+- (void)dealloc
+{
+$DeallocString$
+    [super dealloc];
+}
