@@ -33,7 +33,7 @@ NSString *const CBNameIdentifier = @"name";
     [self.implementTextView setFont:[NSFont systemFontOfSize:12]];
     
     self.variants = [[[NSMutableArray alloc] init] autorelease];
-    assignTypes = [[NSMutableArray alloc] initWithObjects:@"int", @"float", @"double", nil];
+    assignTypes = [[NSMutableArray alloc] initWithObjects:@"int", @"float", @"double", @"BOOL", nil];
     copyTypes = [[NSMutableArray alloc] initWithObjects:@"NSString", nil];
     implementTemplate = [[NSString alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"implement" ofType:@"txt"] encoding:NSUTF8StringEncoding error:nil];
 }
