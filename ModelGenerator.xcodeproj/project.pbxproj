@@ -130,6 +130,9 @@
 /* Begin PBXProject section */
 		35AEC1D81429907A00731F66 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 35AEC1DB1429907A00731F66 /* Build configuration list for PBXProject "ModelGenerator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
